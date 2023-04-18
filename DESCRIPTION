@@ -1,0 +1,18 @@
+Package: penguinclassify
+Title: Functions to classify the type of penguin
+Version: 0.0.0.9000
+Authors@R: 
+    person("Rithika", "Nair", , "rrithikanair@gmail.com", role = c("aut", "cre"))
+Description: It has functions that deal with classifying penguins given certain parameters.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    magrittr,
+    rlang,
+    dplyr,
+    palmerpenguins
